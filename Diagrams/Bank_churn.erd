@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="Bank_churn">
+	<entities>
+		<data-source id="postgres-jdbc-19d4c80c67b-40b4bb8d248fa3fd">
+			<entity id="1" name="activecustomer" fq-name="public.activecustomer">
+				<path name="public"/>
+				<path name="Bank_churn"/>
+			</entity>
+			<entity id="2" name="bank_churn" fq-name="public.bank_churn">
+				<path name="public"/>
+				<path name="Bank_churn"/>
+			</entity>
+			<entity id="3" name="creditcard" fq-name="public.creditcard">
+				<path name="public"/>
+				<path name="Bank_churn"/>
+			</entity>
+			<entity id="4" name="customerinfo" fq-name="public.customerinfo">
+				<path name="public"/>
+				<path name="Bank_churn"/>
+			</entity>
+			<entity id="5" name="exitcustomer" fq-name="public.exitcustomer">
+				<path name="public"/>
+				<path name="Bank_churn"/>
+			</entity>
+			<entity id="6" name="gender" fq-name="public.gender">
+				<path name="public"/>
+				<path name="Bank_churn"/>
+			</entity>
+			<entity id="7" name="geography" fq-name="public.geography">
+				<path name="public"/>
+				<path name="Bank_churn"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="bank_churn_IsActiveMember_fkey" fq-name="public.bank_churn.&quot;bank_churn_IsActiveMember_fkey&quot;" type="fk" pk-ref="1" fk-ref="2"/>
+		<relation name="bank_churn_HasCrCard_fkey" fq-name="public.bank_churn.&quot;bank_churn_HasCrCard_fkey&quot;" type="fk" pk-ref="3" fk-ref="2"/>
+		<relation name="bank_churn_CustomerId_fkey" fq-name="public.bank_churn.&quot;bank_churn_CustomerId_fkey&quot;" type="fk" pk-ref="4" fk-ref="2"/>
+		<relation name="bank_churn_Exited_fkey" fq-name="public.bank_churn.&quot;bank_churn_Exited_fkey&quot;" type="fk" pk-ref="5" fk-ref="2"/>
+		<relation name="bank_churn_GenderID_fkey" fq-name="public.bank_churn.&quot;bank_churn_GenderID_fkey&quot;" type="fk" pk-ref="6" fk-ref="2"/>
+		<relation name="bank_churn_GeographyID_fkey" fq-name="public.bank_churn.&quot;bank_churn_GeographyID_fkey&quot;" type="fk" pk-ref="7" fk-ref="2"/>
+	</relations>
+</diagram>

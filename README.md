@@ -10,7 +10,7 @@ The analysis identifies age and customer activity status as the strongest driver
 
 Geographically, Germany records the highest churn rate (32.44%) compared to France and Spain, indicating potential regional issues. In contrast, factors such as credit score, balance, and tenure show weak or negligible relationships with churn.
 
-You can download the dashboard [here](https://app.powerbi.com/view?r=eyJrIjoiMmI3OTEwYzQtZjE4MC00Nzc3LWI1YzQtMWFjMWJmOWM2OGZkIiwidCI6IjQ3ZDY2NGIzLWQ5ZjctNDM3NC1iMmFkLWU1ZTI5NjA3ZjIwYSJ9) 
+You can see the dashboard [here](https://app.powerbi.com/view?r=eyJrIjoiMmI3OTEwYzQtZjE4MC00Nzc3LWI1YzQtMWFjMWJmOWM2OGZkIiwidCI6IjQ3ZDY2NGIzLWQ5ZjctNDM3NC1iMmFkLWU1ZTI5NjA3ZjIwYSJ9) 
 
 ![!\[alt text\](image.png)](<Dashboards/Bank Customer Churn.png>)
 
